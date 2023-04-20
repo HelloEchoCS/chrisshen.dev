@@ -1,0 +1,580 @@
+<!DOCTYPE html>
+<html lang="en" class="overflow-x-hidden">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Chris Shen | Software Developer</title>
+    <!--=================================-->
+    <!--==== Google font ================-->
+    <!--=================================-->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Rubik:wght@400;500;700&display=swap"
+      rel="stylesheet"
+    />
+    <!--=================================-->
+    <!--==== Main styles ================-->
+    <!--=================================-->
+    <link rel="stylesheet" href="./css/styles.css" />
+  </head>
+  <body class="overflow-x-hidden">
+    <!--=================================-->
+    <!--==== Hero =======================-->
+    <!--=================================-->
+
+    <header class="bg-bg pt-10 lg:pt-8 pb-4 lg:pb-16">
+      <!-- Navbar -->
+      <div class="container">
+        <nav class="flex justify-between align-items-center">
+          <a href="index.html" class="text-lg font-medium"
+            >&lt Chris Shen /&gt</a
+          >
+          <!-- <a class="hidden md:inline" href="index.html">Home</a>
+          <a class="hidden md:inline" href="work.html">Work</a>
+          <a class="hidden md:inline" href="about.html">About</a> -->
+          <div class="flex flex-row gap-8">
+            <a class="hidden md:inline" href="https://otter-framework.dev">
+              <img src="./images/otter-logo.svg" class="h-7" />
+            </a>
+            <a class="hidden md:inline" href="https://github.com/HelloEchoCS">
+              <svg
+                role="img"
+                viewBox="0 0 24 24"
+                xmlns="http://www.w3.org/2000/svg"
+                class="h-7"
+              >
+                <title>GitHub</title>
+                <path
+                  d="M12 .297c-6.63 0-12 5.373-12 12 0 5.303 3.438 9.8 8.205 11.385.6.113.82-.258.82-.577 0-.285-.01-1.04-.015-2.04-3.338.724-4.042-1.61-4.042-1.61C4.422 18.07 3.633 17.7 3.633 17.7c-1.087-.744.084-.729.084-.729 1.205.084 1.838 1.236 1.838 1.236 1.07 1.835 2.809 1.305 3.495.998.108-.776.417-1.305.76-1.605-2.665-.3-5.466-1.332-5.466-5.93 0-1.31.465-2.38 1.235-3.22-.135-.303-.54-1.523.105-3.176 0 0 1.005-.322 3.3 1.23.96-.267 1.98-.399 3-.405 1.02.006 2.04.138 3 .405 2.28-1.552 3.285-1.23 3.285-1.23.645 1.653.24 2.873.12 3.176.765.84 1.23 1.91 1.23 3.22 0 4.61-2.805 5.625-5.475 5.92.42.36.81 1.096.81 2.22 0 1.606-.015 2.896-.015 3.286 0 .315.21.69.825.57C20.565 22.092 24 17.592 24 12.297c0-6.627-5.373-12-12-12"
+                />
+              </svg>
+            </a>
+            <a
+              class="hidden md:inline"
+              href="https://www.linkedin.com/in/chris-shen-04625b49/"
+            >
+              <svg
+                role="img"
+                viewBox="0 0 24 24"
+                xmlns="http://www.w3.org/2000/svg"
+                class="h-7"
+              >
+                <title>LinkedIn</title>
+                <path
+                  d="M20.447 20.452h-3.554v-5.569c0-1.328-.027-3.037-1.852-3.037-1.853 0-2.136 1.445-2.136 2.939v5.667H9.351V9h3.414v1.561h.046c.477-.9 1.637-1.85 3.37-1.85 3.601 0 4.267 2.37 4.267 5.455v6.286zM5.337 7.433c-1.144 0-2.063-.926-2.063-2.065 0-1.138.92-2.063 2.063-2.063 1.14 0 2.064.925 2.064 2.063 0 1.139-.925 2.065-2.064 2.065zm1.782 13.019H3.555V9h3.564v11.452zM22.225 0H1.771C.792 0 0 .774 0 1.729v20.542C0 23.227.792 24 1.771 24h20.451C23.2 24 24 23.227 24 22.271V1.729C24 .774 23.2 0 22.222 0h.003z"
+                />
+              </svg>
+            </a>
+            <a class="hidden md:inline" href="mailto:io.chris@pm.me">
+              <svg
+                role="img"
+                viewBox="0 0 24 24"
+                xmlns="http://www.w3.org/2000/svg"
+                class="h-7"
+              >
+                <title>Email</title>
+                <path
+                  d="M24 5.457v13.909c0 .904-.732 1.636-1.636 1.636h-3.819V11.73L12 16.64l-6.545-4.91v9.273H1.636A1.636 1.636 0 0 1 0 19.366V5.457c0-2.023 2.309-3.178 3.927-1.964L5.455 4.64 12 9.548l6.545-4.91 1.528-1.145C21.69 2.28 24 3.434 24 5.457z"
+                />
+              </svg>
+            </a>
+            <a class="hidden md:inline" href="./misc/chris-shen-resume.pdf">
+              <svg
+                role="img"
+                viewBox="0 0 24 24"
+                xmlns="http://www.w3.org/2000/svg"
+                fill-rule="evenodd"
+                clip-rule="evenodd"
+                class="h-7"
+              >
+                <title>Resume</title>
+                <path
+                  d="M3 24h19v-23h-1v22h-18v1zm17-24h-18v22h18v-22zm-3 17h-12v1h12v-1zm0-3h-12v1h12v-1zm0-3h-12v1h12v-1zm-7.348-3.863l.948.3c-.145.529-.387.922-.725 1.178-.338.257-.767.385-1.287.385-.643 0-1.171-.22-1.585-.659-.414-.439-.621-1.04-.621-1.802 0-.806.208-1.432.624-1.878.416-.446.963-.669 1.642-.669.592 0 1.073.175 1.443.525.221.207.386.505.496.892l-.968.231c-.057-.251-.177-.449-.358-.594-.182-.146-.403-.218-.663-.218-.359 0-.65.129-.874.386-.223.258-.335.675-.335 1.252 0 .613.11 1.049.331 1.308.22.26.506.39.858.39.26 0 .484-.082.671-.248.187-.165.322-.425.403-.779zm3.023 1.78l-1.731-4.842h1.06l1.226 3.584 1.186-3.584h1.037l-1.734 4.842h-1.044z"
+                />
+              </svg>
+            </a>
+          </div>
+
+          <button id="mobile_menu_trigger" class="inline md:hidden">
+            <svg
+              width="24"
+              height="15"
+              viewBox="0 0 24 15"
+              fill="none"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <rect y="0.5" width="24" height="4" fill="#201F27" />
+              <rect x="12" y="10.5" width="12" height="4" fill="#201F27" />
+            </svg>
+          </button>
+        </nav>
+      </div>
+      <!-- Hero -->
+      <div
+        class="container relative pt-16 lg:pt-16 lg:pb-8 grid grid-cols-12 gap-8"
+      >
+        <div class="col-span-12 md:col-span-12 lg:col-span-7 z-10 relative">
+          <h1
+            class="text-xl md:text-3xl lg:text-3xl font-medium leading-snug mb-8 lg:mb-16"
+          >
+            👋 Hello! I'm Chris.
+          </h1>
+          <h3 class="text-lg lg:text-xl mb-8 lg:mb-16">
+            I'm a software developer based in Toronto, with a passion to solve
+            complex problems.
+            <p class="mt-4">
+              Recently, I built
+              <a class="text-indigo-600" href="https://otter-framework.dev"
+                >Otter</a
+              >, an open-source cloud native framework for peer-to-peer video
+              communication within web applications.
+            </p>
+          </h3>
+          <div class="grid grid-cols-12 md:grid-cols-8 gap-8">
+            <span class="col-span-6 md:col-span-3 lg:col-span-3 relative"
+              >Learn more about Otter and other applications I built<svg
+                class="w-8 absolute top-14 md:top-8 -right-0"
+                fill="none"
+                xmlns="http://www.w3.org/2000/svg"
+                viewBox="0 0 38 39"
+              >
+                <path
+                  d="M1.516 2.033c1.748 0 26.808-4.08 26.808 22.146v11.655"
+                  stroke="#000"
+                  stroke-width="2"
+                  stroke-linecap="round"
+                />
+                <path
+                  d="M36.484 28.841 28.325 37l-8.159-8.159"
+                  stroke="#000"
+                  stroke-width="2"
+                  stroke-linecap="round"
+                /></svg
+            ></span>
+            <a
+              href="./misc/chris-shen-resume.pdf"
+              class="bg-primary hover:bg-transparent col-span-6 md:col-span-3 lg:col-span-3 px-8 py-4 border border-solid border-primary text-white hover:text-primary text-center font-medium rounded-full self-start no-underline transition-colors duration-150"
+              >My Resume</a
+            >
+          </div>
+        </div>
+        <img
+          class="relative lg:absolute top-8 lg:top-20 lg:-right-2 z-0 col-span-12 max-h-md lg:h-[105%]"
+          src="./images/portrait.jpg"
+          alt=""
+        />
+      </div>
+    </header>
+    <!--=================================-->
+    <!--==== Introduction ===============-->
+    <!--=================================-->
+    <section
+      class="pt-8 lg:pt-16 pb-8 lg:pb-32 bg-neutral-900/80 backdrop-blur-lg relative"
+    >
+      <div class="container relative py-16 grid grid-cols-12 gap-8">
+        <div class="col-span-12 lg:col-span-5">
+          <div class="flex flex-col">
+            <img class="w-1/2 pb-8" src="./images/otter-main.png" />
+            <p class="text-gray-400">
+              For an application developer, Otter abstracts away the complexity
+              of establishing a <span class="text-white">resilient</span>,
+              <span class="text-white">scalable</span> infrastructure for
+              peer-to-peer video communication. It is powered by a
+              <span class="text-white">serverless</span> architecture on
+              <span class="text-white">AWS</span>, focusing on low maintenance
+              and scalability.
+            </p>
+            <p class="pt-4 pb-8 text-gray-400">
+              <a href="https://youtu.be/I3sinNeqwZU" class="text-purple-400"
+                >Watch the Live Tech Talk</a
+              >
+              on how Otter is built.
+            </p>
+            <a
+              href="https://otter-framework.dev/docs/case-study/introduction/"
+              class="bg-gray-200 hover:bg-gray-300 px-8 py-4 border border-solid border-primary hover:text-primary text-center font-medium rounded-full self-start no-underline transition-colors duration-150"
+              >Read Case Study</a
+            >
+          </div>
+        </div>
+
+        <!-- Slides -->
+
+        <div
+          id="default-carousel"
+          class="relative col-span-12 lg:col-span-7 min-h-[18rem]"
+          data-carousel="static"
+        >
+          <!-- Carousel wrapper -->
+          <div class="relative h-full overflow-hidden rounded-lg md:h-96">
+            <!-- Item 1 -->
+            <div
+              class="hidden duration-400 ease-in-out h-full"
+              data-carousel-item="active"
+            >
+              <img
+                src="./images/arch-overview.png"
+                class="absolute -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2"
+                alt="..."
+              />
+            </div>
+            <!-- Item 2 -->
+            <div
+              class="flex hidden duration-400 ease-in-out h-full bg-gray-900 justify-center"
+              data-carousel-item
+            >
+              <video
+                src="./videos/otter-cli-demo.mp4"
+                autoplay
+                loop
+                muted
+                class="h-full"
+              ></video>
+            </div>
+            <!-- Item 3 -->
+            <div
+              class="flex hidden duration-400 ease-in-out h-full bg-gray-900 justify-center"
+              data-carousel-item
+            >
+              <video
+                src="./videos/otter-demo.mp4"
+                autoplay
+                loop
+                muted
+                class="h-full"
+              ></video>
+            </div>
+          </div>
+          <!-- Slider controls -->
+          <button
+            type="button"
+            class="absolute top-0 left-0 z-30 flex items-center justify-center h-full px-4 cursor-pointer group focus:outline-none"
+            data-carousel-prev
+          >
+            <span
+              class="inline-flex items-center justify-center w-8 h-8 rounded-full sm:w-10 sm:h-10 bg-white/30 dark:bg-gray-800/30 group-hover:bg-white/50 dark:group-hover:bg-gray-800/60 group-focus:ring-4 group-focus:ring-white dark:group-focus:ring-gray-800/70 group-focus:outline-non backdrop-blur-lg"
+            >
+              <svg
+                aria-hidden="true"
+                class="w-5 h-5 text-white sm:w-6 sm:h-6 dark:text-gray-800"
+                fill="none"
+                stroke="currentColor"
+                viewBox="0 0 24 24"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                  stroke-width="2"
+                  d="M15 19l-7-7 7-7"
+                ></path>
+              </svg>
+              <span class="sr-only">Previous</span>
+            </span>
+          </button>
+          <button
+            type="button"
+            class="absolute top-0 right-0 z-30 flex items-center justify-center h-full px-4 cursor-pointer group focus:outline-none"
+            data-carousel-next
+          >
+            <span
+              class="inline-flex items-center justify-center w-8 h-8 rounded-full sm:w-10 sm:h-10 bg-white/30 dark:bg-gray-800/30 group-hover:bg-white/50 dark:group-hover:bg-gray-800/60 group-focus:ring-4 group-focus:ring-white dark:group-focus:ring-gray-800/70 group-focus:outline-none backdrop-blur-lg"
+            >
+              <svg
+                aria-hidden="true"
+                class="w-5 h-5 text-white sm:w-6 sm:h-6 dark:text-gray-800"
+                fill="none"
+                stroke="currentColor"
+                viewBox="0 0 24 24"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                  stroke-width="2"
+                  d="M9 5l7 7-7 7"
+                ></path>
+              </svg>
+              <span class="sr-only">Next</span>
+            </span>
+          </button>
+        </div>
+
+        <!-- <div class="col-span-12 lg:col-span-8">
+          <img
+            src="./images/arch-overview.png"
+            class="col-span-12 lg:col-span-4"
+          />
+        </div> -->
+      </div>
+    </section>
+    <!--=================================-->
+    <!--==== Works ======================-->
+    <!--=================================-->
+    <section class="pt-8">
+      <!-- The Scrolling Text -->
+      <!-- <div
+        class="w-full overflow-hidden flex whitespace-nowrap text-3xl lg:text-4xl font-medium uppercase"
+      >
+        <div class="animate-marquee">
+          <span class="ml-10">Featured projects</span>
+          <span class="ml-10">Featured projects</span>
+          <span class="ml-10">Featured projects</span>
+          <span class="ml-10">Featured projects</span>
+          <span class="ml-10">Featured projects</span>
+        </div>
+        <div class="animate-marquee">
+          <span class="ml-10">Featured projects</span>
+          <span class="ml-10">Featured projects</span>
+          <span class="ml-10">Featured projects</span>
+          <span class="ml-10">Featured projects</span>
+          <span class="ml-10">Featured projects</span>
+        </div>
+      </div> -->
+      <div class="container grid grid-cols-12 gap-8">
+        <h2 class="text-xl lg:text-2xl font-medium col-span-12 my-8">
+          Applications I built
+        </h2>
+        <div
+          class="flex flex-row flex-wrap md:flex-nowrap col-span-12 md:col-span-12 gap-4"
+        >
+          <!-- Project card -->
+          <div class="block relative mb-16 w-full lg:w-1/2">
+            <img
+              class="relative -z-10"
+              src="./images/reack-screenshot-dark.png"
+              alt=""
+            />
+            <div class="bg-white w-10/12 py-4 pr-4">
+              <p>ReAck</p>
+              <h3 class="text-lg font-medium">
+                a real-time webhook debugging tool with custom endpoints
+              </h3>
+            </div>
+            <div class="flex flex-wrap gap-2">
+              <span class="bg-gray-200 px-2 py-2 rounded-full text-xs"
+                >React</span
+              >
+              <span class="bg-gray-200 px-2 py-2 rounded-full text-xs"
+                >Node.js</span
+              >
+              <span class="bg-gray-200 px-2 py-2 rounded-full text-xs"
+                >Express</span
+              >
+              <span class="bg-gray-200 px-2 py-2 rounded-full text-xs"
+                >PostgreSQL</span
+              >
+              <span class="bg-gray-200 px-2 py-2 rounded-full text-xs"
+                >MongoDB</span
+              >
+              <span class="bg-gray-200 px-2 py-2 rounded-full text-xs"
+                >Tailwindcss</span
+              >
+            </div>
+          </div>
+          <!-- Project card -->
+          <div class="block relative mb-16 w-full lg:w-1/2">
+            <img
+              class="relative -z-10"
+              src="./images/nospoil-screenshot.png"
+              alt=""
+            />
+            <div class="bg-white w-10/12 py-4 pr-4">
+              <p>NoSpoil</p>
+              <h3 class="text-lg font-medium">
+                a minimal household inventory management application
+              </h3>
+            </div>
+            <div class="flex flex-wrap gap-2">
+              <span class="bg-gray-200 px-2 py-2 rounded-full text-xs"
+                >Ruby</span
+              >
+              <span class="bg-gray-200 px-2 py-2 rounded-full text-xs"
+                >Sinatra</span
+              >
+              <span class="bg-gray-200 px-2 py-2 rounded-full text-xs"
+                >PostgreSQL</span
+              >
+              <span class="bg-gray-200 px-2 py-2 rounded-full text-xs"
+                >MongoDB</span
+              >
+              <span class="bg-gray-200 px-2 py-2 rounded-full text-xs"
+                >Bootstrap</span
+              >
+            </div>
+          </div>
+        </div>
+        <!-- <div class="col-span-12 md:col-span-6">
+          <a href="case-study.html" class="block relative mb-16">
+            <img
+              class="relative -z-10"
+              src="./images/work_thumbnail_3.jpg"
+              alt=""
+            />
+            <div class="bg-white w-10/12 pt-4 pr-4 -mt-24">
+              <p>JD</p>
+              <h3 class="text-lg lg:text-xl font-medium">
+                Portfolio website for an independent designer
+              </h3>
+            </div>
+          </a>
+          <a href="case-study.html" class="block relative mb-16">
+            <img
+              class="relative -z-10"
+              src="./images/work_thumbnail_4.jpg"
+              alt=""
+            />
+            <div class="bg-white w-10/12 pt-4 pr-4 -mt-24">
+              <p>Bayt Property</p>
+              <h3 class="text-lg lg:text-xl font-medium">
+                Real estate services company website
+              </h3>
+            </div>
+          </a>
+          <div class="flex">
+            <a class="flex items-center font-medium ml-auto" href="work.html">
+              See all works
+              <svg
+                class="ml-4"
+                width="11"
+                height="18"
+                viewBox="0 0 11 18"
+                fill="none"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path
+                  fill-rule="evenodd"
+                  clip-rule="evenodd"
+                  d="M7.29289 9.00008L0 1.70718L1.41421 0.292969L10.1213 9.00008L1.41421 17.7072L0 16.293L7.29289 9.00008Z"
+                  fill="black"
+                />
+              </svg>
+            </a>
+          </div>
+        </div> -->
+      </div>
+    </section>
+    <!--=================================-->
+    <!--==== Services ===================-->
+    <!--=================================-->
+    <section class="pt-16 lg:pt-28 pb-20 lg:pb-40">
+      <div class="container relative grid grid-cols-12 gap-8">
+        <h2
+          class="text-xl lg:text-2xl font-medium col-span-12 lg:col-span-6 mb-12"
+        >
+          Skills
+        </h2>
+      </div>
+      <div class="container relative grid grid-cols-12 gap-8">
+        <!-- Service card -->
+        <div class="col-span-12 md:col-span-4">
+          <h3 class="text-lg lg:text-xl font-medium mb-4">Backend</h3>
+          <p>
+            Ruby, TypeScript, Go, Node.js, Express, PostgreSQL, MongoDB, RESTful
+            APIs
+          </p>
+        </div>
+        <!-- Service card -->
+        <div class="col-span-12 md:col-span-4">
+          <h3 class="text-lg lg:text-xl font-medium mb-4">Frontend</h3>
+          <p>Javascript, React/Redux, Tailwindcss, HTML/CSS</p>
+        </div>
+        <!-- Service card -->
+        <div class="col-span-12 md:col-span-4">
+          <h3 class="text-lg lg:text-xl font-medium mb-4">Tooling</h3>
+          <p>
+            AWS (API Gateways, Lambda, EC2, ECS, Fargate, DynamoDB), AWS SDK,
+            AWS SAM, Docker
+          </p>
+        </div>
+      </div>
+    </section>
+    <!--=================================-->
+    <!--==== Footer =====================-->
+    <!--=================================-->
+    <footer class="pt-24 pb-8 bg-bg">
+      <div class="container relative grid grid-cols-12 gap-8">
+        <div
+          class="col-start-1 lg:col-start-4 col-span-12 lg:col-span-6 flex flex-col justify-center text-center mb-16 lg:mb-24"
+        >
+          <h2 class="text-2xl lg:text-3xl font-medium">Get in touch</h2>
+          <!-- <a
+            href="#"
+            class="bg-primary hover:bg-transparent px-16 py-4 border border-solid border-primary text-white hover:text-primary text-center font-medium rounded-full no-underline col-span-2 self-center transition-colors duration-150"
+            >Let’s talk</a
+          > -->
+        </div>
+        <div
+          class="col-span-12 md:col-span-10 lg:col-span-8 col-start-1 md:col-start-2 lg:col-start-3 flex flex-col md:flex-row items-center justify-start md:justify-between space-y-4 md:space-y-0 text-lg font-medium mb-8"
+        >
+          <a href="https://github.com/HelloEchoCS">Github</a>
+          <a href="https://www.linkedin.com/in/chris-shen-04625b49/"
+            >LinkedIn</a
+          >
+          <a href="mailto:io.chris@pm.me">Email</a>
+          <a href="#">Instagram</a>
+        </div>
+        <div
+          class="col-span-12 flex flex-col md:flex-row items-center md:items-start justify-center space-y-4 md:space-y-0"
+        >
+          <p>© 2023 All rights reserved.</p>
+          <!-- <p>
+            Designed by
+            <a class="font-bold" href="https://www.myoussouf.com/">MYoussouf</a>
+          </p> -->
+        </div>
+      </div>
+    </footer>
+    <!--=================================-->
+    <!--==== Mobile Menu ================-->
+    <!--=================================-->
+    <div
+      id="mobile_menu"
+      class="w-full bg-primary text-white flex flex-col justify-center text-2xl space-y-4 fixed right-0 translate-x-full top-0 bottom-0 z-50 pl-8 transition-transform duration-500"
+    >
+      <button
+        id="mobile_menu_close"
+        class="absolute top-10 right-4 flex items-center text-base"
+      >
+        close
+        <svg
+          class="ml-4"
+          width="20"
+          height="20"
+          viewBox="0 0 20 20"
+          fill="none"
+          xmlns="http://www.w3.org/2000/svg"
+        >
+          <rect
+            x="2.12109"
+            y="0.454041"
+            width="24"
+            height="3"
+            transform="rotate(45 2.12109 0.454041)"
+            fill="#fff"
+          />
+          <rect
+            y="17.4246"
+            width="24"
+            height="3"
+            transform="rotate(-45 0 17.4246)"
+            fill="#fff"
+          />
+        </svg>
+      </button>
+      <!-- <a href="index.html">Home</a>
+      <a href="work.html">Work</a>
+      <a href="about.html">About</a> -->
+      <a href="contact.html">Contact</a>
+    </div>
+
+    <!--=================================-->
+    <!--==== Main JS ====================-->
+    <!--=================================-->
+
+    <script src="./js/scripts.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/flowbite/1.6.5/flowbite.min.js"></script>
+  </body>
+</html>
