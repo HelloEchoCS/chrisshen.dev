@@ -28,8 +28,11 @@
       <!-- Navbar -->
       <div class="container">
         <nav class="flex justify-between align-items-center">
-          <a href="index.html" class="text-lg font-medium"
+          <!-- <a href="index.html" class="text-lg font-medium"
             >&lt Chris Shen /&gt</a
+          > -->
+          <a href="index.html" class="text-lg font-medium hover:text-indigo-600"
+            >Chris Shen</a
           >
           <!-- <a class="hidden md:inline" href="index.html">Home</a>
           <a class="hidden md:inline" href="work.html">Work</a>
@@ -171,143 +174,63 @@
     <!--==== Introduction ===============-->
     <!--=================================-->
     <section
-      class="pt-8 lg:pt-16 pb-8 lg:pb-32 bg-neutral-900/80 backdrop-blur-lg relative"
+      class="pt-8 lg:pt-16 pb-8 lg:pb-32 bg-neutral-900/90 backdrop-blur-lg relative"
     >
-      <div class="container relative py-16 grid grid-cols-12 gap-8">
-        <div class="col-span-12 lg:col-span-5">
-          <div class="flex flex-col">
-            <img class="w-1/2 pb-8" src="./images/otter-main.png" />
-            <p class="text-gray-400">
-              For an application developer, Otter abstracts away the complexity
-              of establishing a <span class="text-white">resilient</span>,
-              <span class="text-white">scalable</span> infrastructure for
-              peer-to-peer video communication. It is powered by a
-              <span class="text-white">serverless</span> architecture on
-              <span class="text-white">AWS</span>, focusing on low maintenance
-              and scalability.
-            </p>
-            <p class="pt-4 pb-8 text-gray-400">
-              <a href="https://youtu.be/I3sinNeqwZU" class="text-purple-400"
-                >Watch the Live Tech Talk</a
-              >
-              on how Otter is built.
-            </p>
-            <a
-              href="https://otter-framework.dev/docs/case-study/introduction/"
-              class="bg-gray-200 hover:bg-gray-300 px-8 py-4 border border-solid border-primary hover:text-primary text-center font-medium rounded-full self-start no-underline transition-colors duration-150"
-              >Read Case Study</a
-            >
-          </div>
+      <div
+        class="container relative py-16 px-32 gap-8 flex flex-col place-items-start"
+      >
+        <div class="flex flex-row justify-between items-center">
+          <img class="w-1/4" src="./images/otter-main.png" />
+          <a
+            href="https://otter-framework.dev/docs/case-study/introduction/"
+            class="bg-gray-200 hover:bg-gray-300 px-8 py-4 border border-solid border-primary hover:text-primary text-center font-medium rounded-full no-underline transition-colors duration-150"
+            >Read Case Study</a
+          >
         </div>
 
-        <!-- Slides -->
-
-        <div
-          id="default-carousel"
-          class="relative col-span-12 lg:col-span-7 min-h-[18rem]"
-          data-carousel="static"
-        >
-          <!-- Carousel wrapper -->
-          <div class="relative h-full overflow-hidden rounded-lg md:h-96">
-            <!-- Item 1 -->
-            <div
-              class="hidden duration-400 ease-in-out h-full"
-              data-carousel-item="active"
-            >
-              <img
-                src="./images/arch-overview.png"
-                class="absolute -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2"
-                alt="..."
-              />
-            </div>
-            <!-- Item 2 -->
-            <div
-              class="flex hidden duration-400 ease-in-out h-full bg-gray-900 justify-center"
-              data-carousel-item
-            >
-              <video
-                src="./videos/otter-cli-demo.mp4"
-                autoplay
-                loop
-                muted
-                class="h-full"
-              ></video>
-            </div>
-            <!-- Item 3 -->
-            <div
-              class="flex hidden duration-400 ease-in-out h-full bg-gray-900 justify-center"
-              data-carousel-item
-            >
-              <video
-                src="./videos/otter-demo.mp4"
-                autoplay
-                loop
-                muted
-                class="h-full"
-              ></video>
-            </div>
-          </div>
-          <!-- Slider controls -->
-          <button
-            type="button"
-            class="absolute top-0 left-0 z-30 flex items-center justify-center h-full px-4 cursor-pointer group focus:outline-none"
-            data-carousel-prev
+        <p class="text-gray-400 text-lg">
+          Otter is a drop-in, cloud native framework for peer-to-peer video
+          communication within web applications. It can be deployed to AWS with
+          a single command and is ideal for web applications with real-time
+          video communication needs.
+        </p>
+        <p class="pt-2 text-gray-400 text-lg">
+          <a href="https://youtu.be/I3sinNeqwZU" class="text-purple-400"
+            >Watch the Live Tech Talk</a
           >
-            <span
-              class="inline-flex items-center justify-center w-8 h-8 rounded-full sm:w-10 sm:h-10 bg-white/30 dark:bg-gray-800/30 group-hover:bg-white/50 dark:group-hover:bg-gray-800/60 group-focus:ring-4 group-focus:ring-white dark:group-focus:ring-gray-800/70 group-focus:outline-non backdrop-blur-lg"
-            >
-              <svg
-                aria-hidden="true"
-                class="w-5 h-5 text-white sm:w-6 sm:h-6 dark:text-gray-800"
-                fill="none"
-                stroke="currentColor"
-                viewBox="0 0 24 24"
-                xmlns="http://www.w3.org/2000/svg"
-              >
-                <path
-                  stroke-linecap="round"
-                  stroke-linejoin="round"
-                  stroke-width="2"
-                  d="M15 19l-7-7 7-7"
-                ></path>
-              </svg>
-              <span class="sr-only">Previous</span>
-            </span>
-          </button>
-          <button
-            type="button"
-            class="absolute top-0 right-0 z-30 flex items-center justify-center h-full px-4 cursor-pointer group focus:outline-none"
-            data-carousel-next
-          >
-            <span
-              class="inline-flex items-center justify-center w-8 h-8 rounded-full sm:w-10 sm:h-10 bg-white/30 dark:bg-gray-800/30 group-hover:bg-white/50 dark:group-hover:bg-gray-800/60 group-focus:ring-4 group-focus:ring-white dark:group-focus:ring-gray-800/70 group-focus:outline-none backdrop-blur-lg"
-            >
-              <svg
-                aria-hidden="true"
-                class="w-5 h-5 text-white sm:w-6 sm:h-6 dark:text-gray-800"
-                fill="none"
-                stroke="currentColor"
-                viewBox="0 0 24 24"
-                xmlns="http://www.w3.org/2000/svg"
-              >
-                <path
-                  stroke-linecap="round"
-                  stroke-linejoin="round"
-                  stroke-width="2"
-                  d="M9 5l7 7-7 7"
-                ></path>
-              </svg>
-              <span class="sr-only">Next</span>
-            </span>
-          </button>
-        </div>
+          on how Otter is built.
+        </p>
+        <!-- <img
+          src="./images/arch-overview.png"
+          class="col-span-12 lg:col-span-4"
+        /> -->
+        <video
+          src="./videos/otter-demo.mp4"
+          muted
+          autoplay
+          loop
+          class="rounded-xl place-self-center"
+        ></video>
+      </div>
+      <div
+        class="container relative px-32 gap-8 flex flex-col place-items-center"
+      >
+        <p class="text-gray-400 text-lg">
+          For an application developer, Otter abstracts away the complexity of
+          establishing a <span class="text-white">resilient</span>,
+          <span class="text-white">scalable</span> infrastructure for
+          peer-to-peer video communication. It is powered by a
+          <span class="text-white">serverless</span> architecture on
+          <span class="text-white">AWS</span>, focusing on low maintenance and
+          scalability.
+        </p>
 
-        <!-- <div class="col-span-12 lg:col-span-8">
+        <div class="col-span-12 lg:col-span-7">
           <img
             src="./images/arch-overview.png"
-            class="col-span-12 lg:col-span-4"
+            class="col-span-12 lg:col-span-4 rounded-xl"
           />
-        </div> -->
+        </div>
       </div>
     </section>
     <!--=================================-->
@@ -335,7 +258,7 @@
       </div> -->
       <div class="container grid grid-cols-12 gap-8">
         <h2 class="text-xl lg:text-2xl font-medium col-span-12 my-8">
-          Applications I built
+          Selected Projects
         </h2>
         <div
           class="flex flex-row flex-wrap md:flex-nowrap col-span-12 md:col-span-12 gap-4"
@@ -514,7 +437,6 @@
             >LinkedIn</a
           >
           <a href="mailto:io.chris@pm.me">Email</a>
-          <a href="#">Instagram</a>
         </div>
         <div
           class="col-span-12 flex flex-col md:flex-row items-center md:items-start justify-center space-y-4 md:space-y-0"
@@ -575,6 +497,5 @@
     <!--=================================-->
 
     <script src="./js/scripts.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/flowbite/1.6.5/flowbite.min.js"></script>
   </body>
 </html>
